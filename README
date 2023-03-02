@@ -1,0 +1,3 @@
+Fast ping all IP inside a subnet and report the average latency per ip
+
+Usage: python3 fast_ping.py
