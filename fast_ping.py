@@ -31,7 +31,7 @@ async def ping(ip, sem):
             rtt_line = output[-1].strip()
             rtt_list = rtt_line.split('=')[-1].split('/')
             avg_latency = float(rtt_list[1])
-            return (str(ip), avg_latency)
+            return str(ip), avg_latency
         else:
             return None
 
