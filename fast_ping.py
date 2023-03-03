@@ -80,6 +80,5 @@ async def main():
     # Print out a summary of the results
     print(f'Total hosts: {len(list(network.hosts()))}, alive hosts: {len(alive)}')
 
-
 if __name__ == '__main__':
     asyncio.run(main())
